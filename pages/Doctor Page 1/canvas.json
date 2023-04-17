@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Doctor Page 1",
+    "slug": "doctor-page-1",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
           "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 89,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 77,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 910,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
@@ -35,15 +34,15 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 2,
-              "bottomRow": 6,
+              "topRow": 3,
+              "bottomRow": 7,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "overflow": "NONE",
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-              "parentColumnSpace": 10.359375,
+              "parentColumnSpace": 21.140625,
               "dynamicTriggerPathList": [],
               "leftColumn": 23,
               "dynamicBindingPathList": [
@@ -59,13 +58,13 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Welcome!",
-              "key": "gtyx67d1w5",
+              "text": "Welcome to Health Hero Doctor!",
+              "key": "p77635t82b",
               "isDeprecated": false,
               "rightColumn": 39,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "cpxv949vmv",
+              "widgetId": "7838a4uc93",
               "minWidth": 450,
               "isVisible": true,
               "fontStyle": "BOLD",
@@ -85,15 +84,16 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Doctor Page 1",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "643cc8ffc065c34479ab84fc_643cc8ffc065c34479ab84fe"
+  "gitSyncId": "643cc8ffc065c34479ab84fc_643ccbca4527d56ae543a562"
 }

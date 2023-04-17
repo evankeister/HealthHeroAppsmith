@@ -1,8 +1,32 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Welcome Page",
       "isDefault": true
+    },
+    {
+      "id": "Doctor Page 1",
+      "isDefault": false
+    },
+    {
+      "id": "Doctor Page 2",
+      "isDefault": false
+    },
+    {
+      "id": "Patient Page 1",
+      "isDefault": false
+    },
+    {
+      "id": "Patient Page 2",
+      "isDefault": false
+    },
+    {
+      "id": "Pharmacist Page 1",
+      "isDefault": false
+    },
+    {
+      "id": "Pharmacist Page 2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
