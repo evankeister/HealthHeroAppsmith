@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Doctor Page 2",
+    "pageId": "Doctor Page 1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Doctor Page 2_patient_names_api",
+  "id": "Doctor Page 1_patient_names_api",
   "deleted": false,
-  "gitSyncId": "643cc8ffc065c34479ab84fc_643dcf1a2b159549e8cdf7b2"
+  "gitSyncId": "643f2841fbcecc56f0478b4b_643f290bfbcecc56f0478b73"
 }
