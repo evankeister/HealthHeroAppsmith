@@ -775,13 +775,13 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 20,
+              "leftColumn": 19,
               "dynamicBindingPathList": [],
               "text": "HOME",
               "isDisabled": false,
               "key": "zf2ern6kxw",
               "isDeprecated": false,
-              "rightColumn": 33,
+              "rightColumn": 32,
               "isDefaultClickDisabled": true,
               "widgetId": "yg2jbqckq0",
               "minWidth": 120,
