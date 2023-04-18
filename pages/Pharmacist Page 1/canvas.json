@@ -35,7 +35,7 @@
                 "label"
               ],
               "topRow": 3,
-              "bottomRow": 7,
+              "bottomRow": 8,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -44,7 +44,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 21.140625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 22,
+              "leftColumn": 10,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -58,10 +58,10 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Welcome to Health Hero Pharmacist!",
+              "text": "Welcome to Health Hero, Pharmacist!",
               "key": "p77635t82b",
               "isDeprecated": false,
-              "rightColumn": 38,
+              "rightColumn": 55,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "gvpvxtts6e",
@@ -74,9 +74,11 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 3,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
+              "originalBottomRow": 8,
+              "fontSize": "1.875rem",
               "minDynamicHeight": 4
             }
           ]

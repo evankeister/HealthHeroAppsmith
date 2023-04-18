@@ -5,19 +5,19 @@
       "isDefault": true
     },
     {
-      "id": "Doctor Page 1",
-      "isDefault": false
-    },
-    {
       "id": "Doctor Page 2",
       "isDefault": false
     },
     {
-      "id": "Patient Page 1",
+      "id": "Doctor Page 1",
       "isDefault": false
     },
     {
       "id": "Patient Page 2",
+      "isDefault": false
+    },
+    {
+      "id": "Patient Page 1",
       "isDefault": false
     },
     {
@@ -33,6 +33,9 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#ECECEC",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
