@@ -194,7 +194,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "View Your Medical Conditions",
+                      "text": "😷 View Your Medical Conditions",
                       "key": "x6imrgmsv0",
                       "isDeprecated": false,
                       "rightColumn": 62,
@@ -219,18 +219,18 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button2",
                       "onClick": "{{view_medical_conditions_api.run(() => showAlert('Your medical conditions have been loaded!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
                         "click",
                         "submit"
                       ],
-                      "topRow": 6,
-                      "bottomRow": 10,
+                      "topRow": 7,
+                      "bottomRow": 11,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -239,20 +239,17 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 28,
+                      "leftColumn": 48,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "zf2ern6kxw",
                       "isDeprecated": false,
-                      "rightColumn": 44,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "kopzoj55ny",
                       "minWidth": 120,
@@ -670,10 +667,10 @@
             },
             {
               "resetFormOnClick": false,
-              "boxShadow": "none",
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
               "widgetName": "Button5",
               "onClick": "{{navigateTo('Patient Page 1', {}, 'SAME_WINDOW')}}",
-              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "buttonColor": "#57719f",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -693,14 +690,7 @@
                 }
               ],
               "leftColumn": 40,
-              "dynamicBindingPathList": [
-                {
-                  "key": "buttonColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
+              "dynamicBindingPathList": [],
               "text": "APPOINTMENTS PAGE",
               "isDisabled": false,
               "key": "zf2ern6kxw",
@@ -716,19 +706,19 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 88,
+              "originalTopRow": 94,
               "disabledWhenInvalid": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 92,
+              "borderRadius": "1.5rem",
+              "originalBottomRow": 98,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
             {
               "resetFormOnClick": false,
-              "boxShadow": "none",
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
               "widgetName": "Button6",
               "onClick": "{{navigateTo('Welcome Page', {}, 'SAME_WINDOW')}}",
-              "buttonColor": "#15803d",
+              "buttonColor": "#547548",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -748,11 +738,7 @@
                 }
               ],
               "leftColumn": 40,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
+              "dynamicBindingPathList": [],
               "text": "HOME",
               "isDisabled": false,
               "key": "zf2ern6kxw",
@@ -768,10 +754,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 94,
+              "originalTopRow": 99,
               "disabledWhenInvalid": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 98,
+              "borderRadius": "1.5rem",
+              "originalBottomRow": 103,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -849,7 +835,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Update One of you Email Adresses:",
+                      "text": "📧 Update One of your Email Adresses",
                       "key": "x6imrgmsv0",
                       "isDeprecated": false,
                       "rightColumn": 59,
@@ -874,18 +860,18 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button7",
                       "onClick": "{{update_email.run(() => showAlert('Successfully updated one of your emails!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
                         "click",
                         "submit"
                       ],
-                      "topRow": 18,
-                      "bottomRow": 22,
+                      "topRow": 19,
+                      "bottomRow": 23,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -894,20 +880,17 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 35,
+                      "leftColumn": 43,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "zf2ern6kxw",
                       "isDeprecated": false,
-                      "rightColumn": 51,
+                      "rightColumn": 59,
                       "isDefaultClickDisabled": true,
                       "widgetId": "e6e8w9776n",
                       "minWidth": 120,
@@ -997,8 +980,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 7,
-                      "bottomRow": 14,
+                      "topRow": 6,
+                      "bottomRow": 13,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -1008,7 +991,7 @@
                       "parentColumnSpace": 7.580078125,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 32,
+                      "leftColumn": 28,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1025,7 +1008,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 57,
+                      "rightColumn": 59,
                       "dynamicHeight": "FIXED",
                       "widgetId": "f5yh4gvzt0",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1086,7 +1069,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 22,
+                      "rightColumn": 33,
                       "dynamicHeight": "FIXED",
                       "widgetId": "gcmek3m4s6",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1130,7 +1113,7 @@
               "key": "tc1kmutayr",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 37,
+              "rightColumn": 35,
               "dynamicHeight": "FIXED",
               "widgetId": "jcxnbbqz4r",
               "minWidth": 450,
@@ -1139,10 +1122,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 85,
+              "originalTopRow": 91,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 113,
+              "originalBottomRow": 119,
               "minDynamicHeight": 10
             },
             {
@@ -1156,7 +1139,7 @@
                 "group"
               ],
               "topRow": 54,
-              "bottomRow": 89,
+              "bottomRow": 90,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -1178,7 +1161,7 @@
                   "widgetName": "Canvas4",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 350,
+                  "bottomRow": 360,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -1219,7 +1202,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "View Your Insurance Information",
+                      "text": "🚑 View Your Insurance Information",
                       "key": "x6imrgmsv0",
                       "isDeprecated": false,
                       "rightColumn": 59,
@@ -1244,10 +1227,10 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button9",
                       "onClick": "{{get_insurance_info_api.run(() => showAlert('Successfully loaded your insurance information below!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -1264,20 +1247,17 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 23,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "zf2ern6kxw",
                       "isDeprecated": false,
-                      "rightColumn": 39,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "8x0j5puwzz",
                       "minWidth": 120,
@@ -1620,7 +1600,7 @@
               "originalTopRow": 54,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 84,
+              "originalBottomRow": 90,
               "minDynamicHeight": 10
             }
           ]

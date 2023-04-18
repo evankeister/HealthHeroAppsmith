@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1670,
+          "bottomRow": 1750,
           "containerStyle": "none",
           "snapRows": 89,
           "parentRowSpace": 1,
@@ -99,7 +99,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "View Patient's Prescriptions",
+                      "text": "💊 View Patient's Prescriptions",
                       "key": "x6imrgmsv0",
                       "isDeprecated": false,
                       "rightColumn": 61,
@@ -124,10 +124,10 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button3",
                       "onClick": "{{view_medications_api.run(() => showAlert('Medications prescribed to a patient have been uploaded below!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -144,20 +144,17 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 45,
+                      "leftColumn": 53,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "zf2ern6kxw",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 63,
                       "isDefaultClickDisabled": true,
                       "widgetId": "66a2hxpzrk",
                       "minWidth": 120,
@@ -675,10 +672,10 @@
             },
             {
               "resetFormOnClick": false,
-              "boxShadow": "none",
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
               "widgetName": "Button4Copy",
               "onClick": "{{navigateTo('Doctor Page 1', {}, 'SAME_WINDOW')}}",
-              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "buttonColor": "#57719f",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -698,14 +695,7 @@
                 }
               ],
               "leftColumn": 5,
-              "dynamicBindingPathList": [
-                {
-                  "key": "buttonColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
+              "dynamicBindingPathList": [],
               "text": "DOCTOR HUB",
               "isDisabled": false,
               "key": "zf2ern6kxw",
@@ -721,19 +711,19 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 206,
+              "originalTopRow": 10,
               "disabledWhenInvalid": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 210,
+              "borderRadius": "1.5rem",
+              "originalBottomRow": 14,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
             {
               "resetFormOnClick": false,
-              "boxShadow": "none",
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
               "widgetName": "Button5",
               "onClick": "{{navigateTo('Welcome Page', {}, 'SAME_WINDOW')}}",
-              "buttonColor": "#166534",
+              "buttonColor": "#547548",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -753,11 +743,7 @@
                 }
               ],
               "leftColumn": 20,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
+              "dynamicBindingPathList": [],
               "text": "HOME",
               "isDisabled": false,
               "key": "zf2ern6kxw",
@@ -773,10 +759,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 206,
+              "originalTopRow": 10,
               "disabledWhenInvalid": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 210,
+              "borderRadius": "1.5rem",
+              "originalBottomRow": 14,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -949,7 +935,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "View Patient's Medical Conditions",
+                      "text": "🩺 View Patient's Medical Conditions",
                       "key": "ekz50ehkrq",
                       "isDeprecated": false,
                       "rightColumn": 37,
@@ -974,10 +960,10 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "patient_names_buttonCopy",
                       "onClick": "{{patient_medical_conditions_api.run(() => showAlert('You are viewing you patients medical conditions below:','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -994,20 +980,17 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 55,
+                      "leftColumn": 53,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "ug8erdshrx",
                       "isDeprecated": false,
-                      "rightColumn": 64,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "quqbwphxmv",
                       "minWidth": 120,
@@ -1064,7 +1047,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 15,
+                      "rightColumn": 14,
                       "dynamicHeight": "FIXED",
                       "widgetId": "5mi6yfu1n2",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1108,7 +1091,7 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": false,
-                      "leftColumn": 42,
+                      "leftColumn": 40,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1125,7 +1108,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 55,
+                      "rightColumn": 53,
                       "dynamicHeight": "FIXED",
                       "widgetId": "wbn5t4db2y",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1169,7 +1152,7 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": false,
-                      "leftColumn": 16,
+                      "leftColumn": 15,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1186,7 +1169,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 29,
+                      "rightColumn": 26,
                       "dynamicHeight": "FIXED",
                       "widgetId": "5prtjh1blv",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1230,7 +1213,7 @@
                       "parentColumnSpace": 6.5693359375,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": false,
-                      "leftColumn": 29,
+                      "leftColumn": 27,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -1247,7 +1230,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 42,
+                      "rightColumn": 39,
                       "dynamicHeight": "FIXED",
                       "widgetId": "fehxcfa70o",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1749,10 +1732,10 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Access Medical Conditions Database",
+                      "text": "🖥️ Access Medical Conditions Database",
                       "key": "ekz50ehkrq",
                       "isDeprecated": false,
-                      "rightColumn": 32,
+                      "rightColumn": 39,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "3lfkxzrd7s",
@@ -1768,16 +1751,16 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 69,
+                      "originalBottomRow": 7,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button1",
                       "onClick": "{{view_medical_conditions_api.run(() => showAlert('You are viewing all of the medical conditions in the database below:','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -1794,16 +1777,13 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 46,
+                      "leftColumn": 52,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "ug8erdshrx",
                       "isDeprecated": false,
@@ -1907,7 +1887,7 @@
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "columnUpdatedAt": 1681773264976,
-                      "originalBottomRow": 119,
+                      "originalBottomRow": 40,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -2185,7 +2165,7 @@
                       "horizontalAlignment": "LEFT",
                       "isVisibleSearch": true,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 70,
+                      "originalTopRow": 10,
                       "isVisiblePagination": true,
                       "verticalAlignment": "CENTER"
                     }
@@ -2300,7 +2280,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Diagnose a Patient With a New Medical Condition",
+                      "text": "😷 Diagnose a Patient With a New Medical Condition",
                       "key": "ekz50ehkrq",
                       "isDeprecated": false,
                       "rightColumn": 64,
@@ -2325,10 +2305,10 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button2",
                       "onClick": "{{diagnose_api.run(() => showAlert('You successfully diagnosed a patient with a medical condition!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -2348,13 +2328,10 @@
                       "leftColumn": 41,
                       "dynamicBindingPathList": [
                         {
-                          "key": "buttonColor"
-                        },
-                        {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "ug8erdshrx",
                       "isDeprecated": false,

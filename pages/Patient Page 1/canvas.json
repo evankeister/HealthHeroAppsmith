@@ -99,7 +99,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "View All Doctors",
+                      "text": "🏥 🔍 View All Doctors",
                       "key": "x6imrgmsv0",
                       "isDeprecated": false,
                       "rightColumn": 21,
@@ -124,10 +124,10 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button1Copy",
                       "onClick": "{{doctornames_api.run(() => showAlert('Successfully loaded all doctor names in the database!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -144,16 +144,13 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 46,
+                      "leftColumn": 51,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "zf2ern6kxw",
                       "isDeprecated": false,
@@ -432,7 +429,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 21.140625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 21,
+              "leftColumn": 15,
               "dynamicBindingPathList": [
                 {
                   "key": "truncateButtonColor"
@@ -446,10 +443,10 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Welcome to Health Hero, Patient!",
+              "text": "Welcome to Health Hero, Patient! 😷",
               "key": "p77635t82b",
               "isDeprecated": false,
-              "rightColumn": 56,
+              "rightColumn": 53,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "0ziqouub6n",
@@ -474,7 +471,7 @@
               "widgetName": "Image2",
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
-              "topRow": 2,
+              "topRow": 12,
               "bottomRow": 50,
               "parentRowSpace": 10,
               "type": "IMAGE_WIDGET",
@@ -503,9 +500,9 @@
               "isLoading": false,
               "maxZoomLevel": 1,
               "enableDownload": false,
-              "originalTopRow": 18,
+              "originalTopRow": 12,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 51,
+              "originalBottomRow": 50,
               "enableRotation": false
             },
             {
@@ -568,7 +565,7 @@
                       "overflow": "NONE",
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 0,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -582,10 +579,10 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Make an Appointment",
+                      "text": "✅ Make an Appointment",
                       "key": "x6imrgmsv0",
                       "isDeprecated": false,
-                      "rightColumn": 50,
+                      "rightColumn": 52,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "ybqu70la0u",
@@ -607,10 +604,10 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button4",
                       "onClick": "{{make_an_appointment_api.run(() => showAlert('Successfully scheduled an appointment!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -630,17 +627,14 @@
                       "leftColumn": 3,
                       "dynamicBindingPathList": [
                         {
-                          "key": "buttonColor"
-                        },
-                        {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "zf2ern6kxw",
                       "isDeprecated": false,
-                      "rightColumn": 32,
+                      "rightColumn": 29,
                       "isDefaultClickDisabled": true,
                       "widgetId": "ugglh6nnip",
                       "minWidth": 120,
@@ -952,7 +946,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "View your Doctor Appointments",
+                      "text": "🗓️ View your Doctor Appointments",
                       "key": "x6imrgmsv0",
                       "isDeprecated": false,
                       "rightColumn": 61,
@@ -977,18 +971,18 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button3Copy",
                       "onClick": "{{view_your_appointments_api.run(() => showAlert('Your appointments have been loaded below!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
                         "click",
                         "submit"
                       ],
-                      "topRow": 7,
-                      "bottomRow": 11,
+                      "topRow": 6,
+                      "bottomRow": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -997,20 +991,17 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 21,
+                      "leftColumn": 51,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "zf2ern6kxw",
                       "isDeprecated": false,
-                      "rightColumn": 39,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "v4e9gbo7j4",
                       "minWidth": 120,
@@ -1118,7 +1109,7 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 33,
+                      "bottomRow": 31,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -1471,7 +1462,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "View Your Prescriptions",
+                      "text": "💊 View Your Prescriptions",
                       "key": "x6imrgmsv0",
                       "isDeprecated": false,
                       "rightColumn": 59,
@@ -1496,10 +1487,10 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button1",
                       "onClick": "{{get_prescription_list_api.run(() => showAlert('Successfully loaded your prescriptions below!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -1517,15 +1508,8 @@
                         }
                       ],
                       "leftColumn": 21,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "text": "Submit",
+                      "dynamicBindingPathList": [],
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "zf2ern6kxw",
                       "isDeprecated": false,
@@ -1542,7 +1526,7 @@
                       "responsiveBehavior": "hug",
                       "originalTopRow": 45,
                       "disabledWhenInvalid": true,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "borderRadius": "0.375rem",
                       "originalBottomRow": 49,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
@@ -1624,7 +1608,7 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 36,
+                      "bottomRow": 35,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -1883,7 +1867,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Cancel Appointment",
+                      "text": "🚫 Cancel Appointment",
                       "key": "x6imrgmsv0",
                       "isDeprecated": false,
                       "rightColumn": 61,
@@ -1908,10 +1892,10 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button3",
                       "onClick": "{{delete_appointment_api.run(() => showAlert('Successfully deleted an appointment!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -1931,13 +1915,10 @@
                       "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
-                          "key": "buttonColor"
-                        },
-                        {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "zf2ern6kxw",
                       "isDeprecated": false,
@@ -2181,10 +2162,10 @@
             },
             {
               "resetFormOnClick": false,
-              "boxShadow": "none",
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
               "widgetName": "Button9",
               "onClick": "{{navigateTo('Patient Page 2', {}, 'SAME_WINDOW')}}",
-              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "buttonColor": "#57719f",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -2203,20 +2184,13 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 38,
-              "dynamicBindingPathList": [
-                {
-                  "key": "buttonColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
+              "leftColumn": 34,
+              "dynamicBindingPathList": [],
               "text": "MORE PATIENT INFO",
               "isDisabled": false,
               "key": "zf2ern6kxw",
               "isDeprecated": false,
-              "rightColumn": 54,
+              "rightColumn": 50,
               "isDefaultClickDisabled": true,
               "widgetId": "vfj3ozx5y3",
               "minWidth": 120,
@@ -2229,17 +2203,17 @@
               "responsiveBehavior": "hug",
               "originalTopRow": 6,
               "disabledWhenInvalid": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "originalBottomRow": 10,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
             {
               "resetFormOnClick": false,
-              "boxShadow": "none",
+              "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
               "widgetName": "Button10",
               "onClick": "{{navigateTo('Welcome Page', {}, 'SAME_WINDOW')}}",
-              "buttonColor": "#15803d",
+              "buttonColor": "#547548",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -2258,17 +2232,13 @@
                   "key": "onClick"
                 }
               ],
-              "leftColumn": 21,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
+              "leftColumn": 18,
+              "dynamicBindingPathList": [],
               "text": "HOME",
               "isDisabled": false,
               "key": "zf2ern6kxw",
               "isDeprecated": false,
-              "rightColumn": 36,
+              "rightColumn": 33,
               "isDefaultClickDisabled": true,
               "widgetId": "inl6khtijz",
               "minWidth": 120,
@@ -2281,7 +2251,7 @@
               "responsiveBehavior": "hug",
               "originalTopRow": 6,
               "disabledWhenInvalid": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "originalBottomRow": 10,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
