@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1480,
+          "bottomRow": 1520,
           "containerStyle": "none",
           "snapRows": 89,
           "parentRowSpace": 1,
@@ -170,7 +170,7 @@
                 "label"
               ],
               "topRow": 5,
-              "bottomRow": 10,
+              "bottomRow": 13,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -212,7 +212,7 @@
               "originalTopRow": 5,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 10,
+              "originalBottomRow": 13,
               "fontSize": "1.875rem",
               "minDynamicHeight": 4
             },
@@ -226,8 +226,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 13,
-              "bottomRow": 52,
+              "topRow": 16,
+              "bottomRow": 55,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -315,10 +315,10 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button11",
                       "onClick": "{{add_medication_api.run(() => showAlert('Succussfully added a medication to the database!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -337,9 +337,6 @@
                       ],
                       "leftColumn": 12,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -633,10 +630,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 13,
+              "originalTopRow": 16,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 52,
+              "originalBottomRow": 55,
               "minDynamicHeight": 10
             },
             {
@@ -732,7 +729,7 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
+                      "originalBottomRow": 7,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -782,10 +779,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 33,
+                      "originalTopRow": 12,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 37,
+                      "originalBottomRow": 16,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -842,10 +839,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
-                      "originalTopRow": 12,
+                      "originalTopRow": 10,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 19,
+                      "originalBottomRow": 17,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
@@ -952,6 +949,7 @@
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "columnUpdatedAt": 1681835532120,
+                      "originalBottomRow": 41,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -975,11 +973,15 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 39,
+                      "bottomRow": 44,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
-                        "status": 85
+                        "status": 85,
+                        "PrescID": 89,
+                        "MedID": 81,
+                        "MedicationCommonName": 101,
+                        "PharmID": 106
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -1397,7 +1399,7 @@
                       "key": "gvf67wdqox",
                       "canFreezeColumn": true,
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 62,
                       "textSize": "0.875rem",
                       "widgetId": "m8zvo46j5w",
                       "minWidth": 450,
@@ -1409,6 +1411,7 @@
                       "horizontalAlignment": "LEFT",
                       "isVisibleSearch": true,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 20,
                       "isVisiblePagination": true,
                       "verticalAlignment": "CENTER"
                     }
@@ -1434,7 +1437,7 @@
               "key": "s92e20b2bl",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 26,
+              "rightColumn": 42,
               "dynamicHeight": "FIXED",
               "widgetId": "0ni9lp07m0",
               "minWidth": 450,
@@ -1459,8 +1462,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 57,
-              "bottomRow": 101,
+              "topRow": 110,
+              "bottomRow": 152,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -1468,7 +1471,7 @@
               "animateLoading": true,
               "parentColumnSpace": 20.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 27,
+              "leftColumn": 3,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1482,7 +1485,7 @@
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 440,
+                  "bottomRow": 420,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -1501,8 +1504,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 1,
-                      "bottomRow": 5,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -1523,7 +1526,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Get the chemical compounds in a patient's prescriptions:",
+                      "text": "🧪 See chemical compounds in a patient's prescription",
                       "key": "3gkj8cewyo",
                       "isDeprecated": false,
                       "rightColumn": 62,
@@ -1548,18 +1551,18 @@
                     },
                     {
                       "resetFormOnClick": true,
-                      "boxShadow": "none",
+                      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button15",
                       "onClick": "{{get_chemicalcompounds_api.run(() => showAlert('Successfully loaded chemical compounds!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#e4e4e4",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
                         "click",
                         "submit"
                       ],
-                      "topRow": 10,
-                      "bottomRow": 14,
+                      "topRow": 6,
+                      "bottomRow": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -1568,20 +1571,17 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 44,
+                      "leftColumn": 46,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Submit",
+                      "text": "SUBMIT",
                       "isDisabled": false,
                       "key": "m37tv9lvz0",
                       "isDeprecated": false,
-                      "rightColumn": 60,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "d393bdhprr",
                       "minWidth": 120,
@@ -1592,10 +1592,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 35,
+                      "originalTopRow": 12,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 39,
+                      "originalBottomRow": 16,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -1610,8 +1610,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 7,
-                      "bottomRow": 14,
+                      "topRow": 4,
+                      "bottomRow": 11,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -1638,7 +1638,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 42,
+                      "rightColumn": 19,
                       "dynamicHeight": "FIXED",
                       "widgetId": "le3k13wcyu",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1665,7 +1665,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 15,
+                      "topRow": 11,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -1738,7 +1738,7 @@
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "columnUpdatedAt": 1681835788721,
-                      "originalBottomRow": 45,
+                      "originalBottomRow": 41,
                       "defaultSelectedRowIndices": [
                         0
                       ],
@@ -1758,7 +1758,13 @@
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
-                        "status": 85
+                        "status": 85,
+                        "ChemID": 132,
+                        "BoilingPoint": 103,
+                        "MeltingPoint": 102,
+                        "CommonName": 129,
+                        "MolecularWeight": 119,
+                        "ScientificName": 60
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -1944,7 +1950,7 @@
                       "key": "gvf67wdqox",
                       "canFreezeColumn": true,
                       "isDeprecated": false,
-                      "rightColumn": 35,
+                      "rightColumn": 63,
                       "textSize": "0.875rem",
                       "widgetId": "vplot5ni1k",
                       "minWidth": 450,
@@ -1982,7 +1988,7 @@
               "key": "s92e20b2bl",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 61,
+              "rightColumn": 63,
               "dynamicHeight": "FIXED",
               "widgetId": "lsfmgj20kl",
               "minWidth": 450,
@@ -1991,10 +1997,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 57,
+              "originalTopRow": 105,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 101,
+              "originalBottomRow": 147,
               "minDynamicHeight": 10
             },
             {
@@ -2007,8 +2013,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 110,
-              "bottomRow": 148,
+              "topRow": 58,
+              "bottomRow": 105,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -2016,7 +2022,7 @@
               "animateLoading": true,
               "parentColumnSpace": 20.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 44,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -2030,7 +2036,7 @@
                   "widgetName": "Canvas4",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 380,
+                  "bottomRow": 470,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -2050,7 +2056,7 @@
                         "label"
                       ],
                       "topRow": 1,
-                      "bottomRow": 5,
+                      "bottomRow": 7,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -2090,7 +2096,7 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
+                      "originalBottomRow": 7,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -2106,8 +2112,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 29,
-                      "bottomRow": 33,
+                      "topRow": 31,
+                      "bottomRow": 35,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -2140,10 +2146,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 33,
+                      "originalTopRow": 31,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 37,
+                      "originalBottomRow": 35,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -2158,8 +2164,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 7,
-                      "bottomRow": 14,
+                      "topRow": 9,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -2200,8 +2206,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 9,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 16,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
@@ -2217,8 +2225,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 7,
-                      "bottomRow": 14,
+                      "topRow": 9,
+                      "bottomRow": 16,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -2259,8 +2267,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 9,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 16,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
@@ -2276,8 +2286,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 17,
-                      "bottomRow": 24,
+                      "topRow": 19,
+                      "bottomRow": 26,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -2318,8 +2328,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 19,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 26,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
@@ -2335,8 +2347,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 17,
-                      "bottomRow": 24,
+                      "topRow": 19,
+                      "bottomRow": 26,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -2377,8 +2389,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 19,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 26,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
@@ -2394,8 +2408,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 27,
-                      "bottomRow": 34,
+                      "topRow": 29,
+                      "bottomRow": 36,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -2436,8 +2450,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 29,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 36,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
@@ -2464,7 +2480,7 @@
               "key": "s92e20b2bl",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 23,
+              "rightColumn": 64,
               "dynamicHeight": "FIXED",
               "widgetId": "ixr4c9haqj",
               "minWidth": 450,
@@ -2473,119 +2489,11 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 110,
+              "originalTopRow": 63,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 148,
+              "originalBottomRow": 101,
               "minDynamicHeight": 10
-            },
-            {
-              "resetFormOnClick": false,
-              "boxShadow": "none",
-              "widgetName": "Button18",
-              "onClick": "{{navigateTo('Pharmacist Page 1', {}, 'SAME_WINDOW')}}",
-              "buttonColor": "#15803d",
-              "dynamicPropertyPathList": [],
-              "displayName": "Button",
-              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
-              "searchTags": [
-                "click",
-                "submit"
-              ],
-              "topRow": 114,
-              "bottomRow": 118,
-              "parentRowSpace": 10,
-              "type": "BUTTON_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 20.0625,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onClick"
-                }
-              ],
-              "leftColumn": 35,
-              "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "text": "Previous Page:",
-              "isDisabled": false,
-              "key": "m37tv9lvz0",
-              "isDeprecated": false,
-              "rightColumn": 51,
-              "isDefaultClickDisabled": true,
-              "widgetId": "5zu46o0obd",
-              "minWidth": 120,
-              "isVisible": true,
-              "recaptchaType": "V3",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "hug",
-              "originalTopRow": 114,
-              "disabledWhenInvalid": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 118,
-              "buttonVariant": "PRIMARY",
-              "placement": "CENTER"
-            },
-            {
-              "resetFormOnClick": false,
-              "boxShadow": "none",
-              "widgetName": "Button19",
-              "onClick": "{{navigateTo('Welcome Page', {}, 'SAME_WINDOW')}}",
-              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "displayName": "Button",
-              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
-              "searchTags": [
-                "click",
-                "submit"
-              ],
-              "topRow": 127,
-              "bottomRow": 131,
-              "parentRowSpace": 10,
-              "type": "BUTTON_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 20.0625,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onClick"
-                }
-              ],
-              "leftColumn": 35,
-              "dynamicBindingPathList": [
-                {
-                  "key": "buttonColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "text": "HOME",
-              "isDisabled": false,
-              "key": "m37tv9lvz0",
-              "isDeprecated": false,
-              "rightColumn": 51,
-              "isDefaultClickDisabled": true,
-              "widgetId": "u1yeg56yed",
-              "minWidth": 120,
-              "isVisible": true,
-              "recaptchaType": "V3",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "hug",
-              "originalTopRow": 127,
-              "disabledWhenInvalid": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 131,
-              "buttonVariant": "PRIMARY",
-              "placement": "CENTER"
             }
           ]
         },
