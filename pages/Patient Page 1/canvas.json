@@ -126,8 +126,8 @@
                       "resetFormOnClick": true,
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button1Copy",
-                      "onClick": "{{doctornames_api.run(() => showAlert('Successfully loaded all doctor names in the database!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "onClick": "{{doctornames_api.run(() => showAlert('Success!','success'), () => {})}}",
+                      "buttonColor": "#4f46e5",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -607,7 +607,7 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button4",
                       "onClick": "{{make_an_appointment_api.run(() => showAlert('Successfully scheduled an appointment!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#4f46e5",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -974,7 +974,7 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button3Copy",
                       "onClick": "{{view_your_appointments_api.run(() => showAlert('Your appointments have been loaded below!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#4f46e5",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -1490,7 +1490,7 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button1",
                       "onClick": "{{get_prescription_list_api.run(() => showAlert('Successfully loaded your prescriptions below!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#4f46e5",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -1896,7 +1896,7 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button3",
                       "onClick": "{{delete_appointment_api.run(() => showAlert('Successfully deleted an appointment!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#4f46e5",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -2259,7 +2259,18 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Patient Page 1_doctornames_api",
+              "name": "doctornames_api",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Patient Page 1",

@@ -127,7 +127,7 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "patient_names_buttonCopy",
                       "onClick": "{{patient_names_api.run(() => showAlert('Your patients are displayed below.','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#4f46e5",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -267,6 +267,9 @@
                         },
                         {
                           "key": "primaryColumns.PatientLastName.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.Email.computedValue"
                         }
                       ],
                       "needsHeightForContent": true,
@@ -304,7 +307,7 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1681772568346,
+                      "columnUpdatedAt": 1681868054194,
                       "originalBottomRow": 39,
                       "primaryColumnId": "SSN",
                       "defaultSelectedRowIndices": [
@@ -316,7 +319,8 @@
                         "SSN",
                         "PatientFirstName",
                         "PatientLastName",
-                        "DOB"
+                        "DOB",
+                        "Email"
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
@@ -325,10 +329,10 @@
                         "task": 245,
                         "step": 70,
                         "status": 85,
-                        "PatientLastName": 190,
-                        "PatientFirstName": 217,
+                        "PatientLastName": 102,
+                        "PatientFirstName": 126,
                         "SSN": 141,
-                        "DOB": 109.6025390625
+                        "DOB": 60
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -451,6 +455,35 @@
                           "sticky": "",
                           "validation": {},
                           "cellBackground": ""
+                        },
+                        "Email": {
+                          "allowCellWrapping": false,
+                          "index": 1,
+                          "width": 150,
+                          "originalId": "Email",
+                          "id": "Email",
+                          "alias": "Email",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "Email",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{patient_names_tableCopy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
                         }
                       },
                       "key": "upruarxi6w",
@@ -550,10 +583,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 8,
+              "originalTopRow": 7,
               "disabledWhenInvalid": false,
               "borderRadius": "1.5rem",
-              "originalBottomRow": 12,
+              "originalBottomRow": 11,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -598,10 +631,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "hug",
-              "originalTopRow": 8,
+              "originalTopRow": 7,
               "disabledWhenInvalid": false,
               "borderRadius": "1.5rem",
-              "originalBottomRow": 12,
+              "originalBottomRow": 11,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -763,7 +796,7 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "patient_names_button",
                       "onClick": "{{view_appointments_api.run(() => showAlert('You appointments with patients have been loaded!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#4f46e5",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -962,8 +995,8 @@
                         "status": 85,
                         "SSN": 105,
                         "PatientFirstName": 107,
-                        "PatientLastName": 124,
-                        "AppointmentDate": 139,
+                        "PatientLastName": 60,
+                        "AppointmentDate": 238,
                         "DOB": 110.15234375
                       },
                       "parentRowSpace": 10,
@@ -1276,7 +1309,7 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button1",
                       "onClick": "{{update_specialty_api.run(() => showAlert('Your specialty has been updated!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#4f46e5",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -1582,7 +1615,7 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button2",
                       "onClick": "{{cancel_appointment_api.run(() => showAlert('Successfully deleted appointment!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#4f46e5",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [

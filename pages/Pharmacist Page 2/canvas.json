@@ -31,6 +31,7 @@
               "widgetName": "Button10",
               "onClick": "{{navigateTo('Welcome Page', {}, 'SAME_WINDOW')}}",
               "buttonColor": "#547548",
+              "dynamicPropertyPathList": [],
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
               "searchTags": [
@@ -170,7 +171,7 @@
                 "label"
               ],
               "topRow": 5,
-              "bottomRow": 13,
+              "bottomRow": 10,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -212,7 +213,7 @@
               "originalTopRow": 5,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 13,
+              "originalBottomRow": 10,
               "fontSize": "1.875rem",
               "minDynamicHeight": 4
             },
@@ -226,8 +227,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 16,
-              "bottomRow": 55,
+              "topRow": 13,
+              "bottomRow": 52,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -318,7 +319,8 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button11",
                       "onClick": "{{add_medication_api.run(() => showAlert('Succussfully added a medication to the database!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#6366f1",
+                      "dynamicPropertyPathList": [],
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -630,10 +632,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 16,
+              "originalTopRow": 13,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 55,
+              "originalBottomRow": 52,
               "minDynamicHeight": 10
             },
             {
@@ -646,8 +648,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 58,
-              "bottomRow": 105,
+              "topRow": 55,
+              "bottomRow": 102,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -738,7 +740,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button13",
                       "onClick": "{{get_prescription_api.run(() => showAlert('Successfully loaded prescriptions for patient below!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#6366f1",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -757,9 +759,6 @@
                       ],
                       "leftColumn": 36,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -1446,10 +1445,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 58,
+              "originalTopRow": 55,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 105,
+              "originalBottomRow": 102,
               "minDynamicHeight": 10
             },
             {
@@ -1554,7 +1553,7 @@
                       "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
                       "widgetName": "Button15",
                       "onClick": "{{get_chemicalcompounds_api.run(() => showAlert('Successfully loaded chemical compounds!','success'), () => {})}}",
-                      "buttonColor": "#e4e4e4",
+                      "buttonColor": "#6366f1",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -1997,10 +1996,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 105,
+              "originalTopRow": 110,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 147,
+              "originalBottomRow": 152,
               "minDynamicHeight": 10
             },
             {
@@ -2105,7 +2104,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button17",
                       "onClick": "{{add_new_education_api.run(() => showAlert('Successfully added new educational experience to the database!','success'), () => {})}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#6366f1",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -2124,9 +2123,6 @@
                       ],
                       "leftColumn": 27,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
